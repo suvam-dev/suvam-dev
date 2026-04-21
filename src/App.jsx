@@ -4,15 +4,17 @@ import Landing from './section/Landing.jsx'
 import Project from './section/project.jsx'
 import Carousel from './section/carousel.jsx'
 import ContactMe from './section/ContactMe.jsx'
+import Footer from './section/footer.jsx'
 function App() {
 
   return (
     <>
       <Navbar />
       <Landing />
-      <Project /> 
+      <Project />
       <Carousel />
       <ContactMe />
+      <Footer />
     </>
   )
 }

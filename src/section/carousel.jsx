@@ -1,4 +1,4 @@
-import CarouselCard from "../components/carousel";
+import CarouselCard from "../Components/carousel";
 function Carousel() {
     return (
         <>
