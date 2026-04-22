@@ -2,7 +2,7 @@ import { Copyright } from 'lucide-react';
 
 export default function Footer() {
     return (
-        <footer className="footer-container flex flex-col items-center justify-center py-5 mt-10 bg-gray-900 border-t border-gray-700">
+        <footer className="footer-container flex flex-col items-center justify-center py-5 mt-10 bg-light-100/80 backdrop-blur-lg border-t border-gray-700">
             <div className="flex flex-col items-center gap-2">
                 <p className="text-gray-400 font-medium">
                     Made with ❤️ and <span className="text-blue-500 font-bold">{'</>'}</span> by
