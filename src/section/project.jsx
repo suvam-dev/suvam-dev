@@ -86,8 +86,13 @@ function Project() {
     };
 
     return (
-        <section className="relative bg-gray-[1000] py-20 px-4 min-h-screen flex flex-col items-center justify-center overflow-hidden" id="projects" style={{ backgroundColor: '#050510' }}>
+        <section id="projects" className="relative flex flex-col justify-center items-center py-20 px-5 md:px-20 bg-[#050510] overflow-hidden">
             
+            {/* Background Ambient Effects */}
+            <div className="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-cyan-900/20 to-transparent pointer-events-none"></div>
+            <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-900/10 blur-[100px] pointer-events-none rounded-full"></div>
+            <div className="absolute top-1/3 left-1/4 w-72 h-72 bg-cyan-900/10 blur-[120px] pointer-events-none rounded-full"></div>
+
             {/* Elegant animated wave background */}
             <div className="absolute inset-0 z-0 opacity-100 pointer-events-none overflow-hidden flex items-center justify-center">
                 <canvas ref={canvasRef} className="w-full h-full opacity-100 mix-blend-screen" />
@@ -145,6 +150,8 @@ function Project() {
                                 name={project.title}
                                 description={project.body}
                                 image={project.image}
+                                github={project.github}
+                                live={project.live}
                                 isActive={isActive}
                             />
                         </div>

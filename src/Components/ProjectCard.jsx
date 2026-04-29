@@ -1,14 +1,14 @@
 import { ArrowRight } from 'lucide-react';
 
-function ProjectCard({ name, description, image, link, isActive }) {
+function ProjectCard({ name, description, image, github, live, isActive }) {
     // Generate a tag based on the project for visual variety (mocking the 'Database' pill)
     const tag = "Development";
 
     return (
-        <div className={`group relative flex flex-col w-[320px] md:w-[360px] h-[480px] p-5 rounded-3xl overflow-hidden transition-all duration-500 bg-[#0B0C10] ${isActive ? 'shadow-[0_0_40px_rgba(79,70,229,0.15)] ring-1 ring-white/10' : 'shadow-xl ring-1 ring-white/5'}`}>
+        <div className={`group relative flex flex-col w-[320px] md:w-[360px] h-[480px] p-5 rounded-3xl overflow-hidden transition-all duration-500 bg-[#0B0C10] ${isActive ? 'shadow-[0_0_40px_rgba(34,211,238,0.15)] ring-1 ring-cyan-500/30' : 'shadow-xl ring-1 ring-white/5'}`}>
             
             {/* Image Container with Glowing Gradient Border */}
-            <div className="relative w-full h-[220px] rounded-2xl mb-5 p-[1.5px] bg-gradient-to-br from-blue-500 via-indigo-500 to-orange-400 shadow-[0_0_20px_rgba(99,102,241,0.2)] flex-shrink-0">
+            <div className="relative w-full h-[220px] rounded-2xl mb-5 p-[1.5px] bg-gradient-to-br from-cyan-500 via-blue-500 to-cyan-400 shadow-[0_0_20px_rgba(34,211,238,0.2)] flex-shrink-0">
                 {/* Inner actual image container */}
                 <div className="relative w-full h-full rounded-[14.5px] overflow-hidden bg-slate-900 border border-black/20">
                     <img
@@ -24,14 +24,14 @@ function ProjectCard({ name, description, image, link, isActive }) {
             {/* Content Section */}
             <div className="flex flex-col flex-grow px-1 z-10">
                 {/* Tag Pill */}
-                <div className="mb-4">
-                    <span className="inline-block px-4 py-1 rounded-full border border-indigo-500/30 bg-[#1e1b4b]/50 text-indigo-200 text-xs font-medium tracking-wide">
+                <div className="flex justify-between items-center mb-3">
+                    <span className="inline-block px-4 py-1 rounded-full border border-cyan-500/30 bg-cyan-900/30 text-cyan-200 text-xs font-medium tracking-wide">
                         {tag}
                     </span>
                 </div>
                 
                 {/* Title */}
-                <h3 className="text-xl font-semibold text-white mb-3 tracking-tight group-hover:text-indigo-300 transition-colors">
+                <h3 className="text-xl font-semibold text-white mb-3 tracking-tight group-hover:text-cyan-300 transition-colors">
                     {name}
                 </h3>
                 
@@ -43,18 +43,29 @@ function ProjectCard({ name, description, image, link, isActive }) {
                 {/* Footer Buttons */}
                 <div className="mt-auto flex items-center justify-between pb-1">
                     <a
-                        href={link || "#"}
+                        href={github || "#"}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-2 px-5 py-2 rounded-full border border-indigo-500/30 bg-[#1e1b4b]/60 text-indigo-200 hover:text-indigo-100 font-medium text-sm transition-all hover:bg-indigo-900/50"
+                        className="flex items-center gap-2 px-5 py-2 rounded-full border border-cyan-500/30 bg-cyan-900/40 text-cyan-300 hover:text-cyan-100 font-medium text-sm transition-all hover:bg-cyan-800/50"
                     >
-                        Manage
+                        GitHub
                         <ArrowRight size={16} className="transform group-hover:translate-x-1 transition-transform" />
                     </a>
                     
-                    <span className="px-4 py-2 rounded-full border border-white/10 bg-white/5 text-gray-300 text-xs font-medium">
-                        Live
-                    </span>
+                    {live ? (
+                        <a 
+                            href={live}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-4 py-2 rounded-full border border-green-500/30 bg-green-900/30 text-green-300 hover:bg-green-800/50 hover:text-green-200 text-xs font-medium transition-all cursor-pointer"
+                        >
+                            Live
+                        </a>
+                    ) : (
+                        <span className="px-4 py-2 rounded-full border border-white/10 bg-white/5 text-gray-500 text-xs font-medium cursor-not-allowed">
+                            Offline
+                        </span>
+                    )}
                 </div>
             </div>
             
