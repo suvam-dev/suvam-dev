@@ -15,7 +15,7 @@ function ContactSection() {
         emailjs
             .sendForm(
                 'service_iubaehg', 
-                'YOUR_TEMPLATE_ID', 
+                'template_su3ng9b', 
                 form.current, 
                 'nR4rKT-_ge9omTHdb'
             )
