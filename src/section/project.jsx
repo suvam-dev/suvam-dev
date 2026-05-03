@@ -77,6 +77,42 @@ function Project() {
         };
     }, []);
 
+    const [isMobile, setIsMobile] = useState(false);
+    const [touchStart, setTouchStart] = useState(null);
+    const [touchEnd, setTouchEnd] = useState(null);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth < 768);
+        };
+        handleResize();
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+    const minSwipeDistance = 50;
+
+    const onTouchStart = (e) => {
+        setTouchEnd(null);
+        setTouchStart(e.targetTouches[0].clientX);
+    };
+
+    const onTouchMove = (e) => {
+        setTouchEnd(e.targetTouches[0].clientX);
+    };
+
+    const onTouchEnd = () => {
+        if (!touchStart || !touchEnd) return;
+        const distance = touchStart - touchEnd;
+        const isLeftSwipe = distance > minSwipeDistance;
+        const isRightSwipe = distance < -minSwipeDistance;
+        if (isLeftSwipe) {
+            nextProject();
+        } else if (isRightSwipe) {
+            prevProject();
+        }
+    };
+
     const nextProject = () => {
         setCurrentIndex((prev) => (prev + 1) % projectDetails.length);
     };
@@ -99,13 +135,18 @@ function Project() {
             </div>
 
             <div className="flex flex-col items-center justify-center mb-16 relative z-10">
-                <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600 font-extrabold text-5xl mb-4 tracking-wider uppercase drop-shadow-[0_0_15px_rgba(34,211,238,0.5)]">
+                <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600 font-extrabold text-5xl mb-4 tracking-wider uppercase drop-shadow-[0_0_15px_rgba(34,211,238,0.5)] text-center">
                     Featured Projects
                 </h1>
                 <div className="w-32 h-1 bg-cyan-500 rounded-full shadow-[0_0_10px_#22d3ee]"></div>
             </div>
 
-            <div className="relative w-full max-w-6xl h-[550px] flex justify-center items-center perspective-[1200px]">
+            <div 
+                onTouchStart={onTouchStart}
+                onTouchMove={onTouchMove}
+                onTouchEnd={onTouchEnd}
+                className="relative w-full max-w-6xl h-[550px] flex justify-center items-center perspective-[1200px]"
+            >
                 {projectDetails.map((project, index) => {
                     let offset = index - currentIndex;
                     const total = projectDetails.length;
@@ -120,14 +161,20 @@ function Project() {
                     let zIndex = 10 - Math.abs(offset);
 
                     if (isActive) {
-                        transformStr = 'translateX(0px) translateZ(50px) rotateY(0deg) scale(1)';
+                        transformStr = isMobile 
+                            ? 'translateX(0px) translateZ(30px) rotateY(0deg) scale(0.9)' 
+                            : 'translateX(0px) translateZ(50px) rotateY(0deg) scale(1)';
                     } else if (Math.abs(offset) === 1) {
                         const sign = Math.sign(offset);
-                        transformStr = `translateX(${sign * 350}px) translateZ(-150px) rotateY(${-sign * 35}deg) scale(0.85)`;
-                        opacity = 0.7;
+                        transformStr = isMobile 
+                            ? `translateX(${sign * 110}px) translateZ(-80px) rotateY(${-sign * 25}deg) scale(0.75)`
+                            : `translateX(${sign * 350}px) translateZ(-150px) rotateY(${-sign * 35}deg) scale(0.85)`;
+                        opacity = isMobile ? 0.35 : 0.7;
                     } else {
                         const sign = Math.sign(offset);
-                        transformStr = `translateX(${sign * 500}px) translateZ(-300px) rotateY(${-sign * 45}deg) scale(0.7)`;
+                        transformStr = isMobile 
+                            ? `translateX(${sign * 180}px) translateZ(-160px) rotateY(${-sign * 35}deg) scale(0.6)`
+                            : `translateX(${sign * 500}px) translateZ(-300px) rotateY(${-sign * 45}deg) scale(0.7)`;
                         opacity = 0;
                     }
 
@@ -163,18 +210,18 @@ function Project() {
             <div className="flex gap-6 mt-12 z-20">
                 <button
                     onClick={prevProject}
-                    className="p-3 rounded-xl bg-cyan-900/40 border border-cyan-500/50 text-cyan-400 hover:bg-cyan-800/60 hover:scale-110 hover:shadow-[0_0_15px_#22d3ee] transition-all duration-300"
+                    className="p-3 rounded-xl bg-cyan-900/40 border border-cyan-500/50 text-cyan-400 hover:bg-cyan-800/60 hover:scale-110 hover:shadow-[0_0_15px_#22d3ee] transition-all duration-300 cursor-pointer"
                 >
                     <ChevronLeft size={32} />
                 </button>
                 <button
                     onClick={nextProject}
-                    className="p-3 rounded-xl bg-cyan-900/40 border border-cyan-500/50 text-cyan-400 hover:bg-cyan-800/60 hover:scale-110 hover:shadow-[0_0_15px_#22d3ee] transition-all duration-300"
+                    className="p-3 rounded-xl bg-cyan-900/40 border border-cyan-500/50 text-cyan-400 hover:bg-cyan-800/60 hover:scale-110 hover:shadow-[0_0_15px_#22d3ee] transition-all duration-300 cursor-pointer"
                 >
                     <ChevronRight size={32} />
                 </button>
             </div>
-            <p className="text-gray-500 mt-6 text-sm animate-pulse tracking-widest uppercase">Click cards to focus and interact</p>
+            <p className="text-gray-500 mt-6 text-sm animate-pulse tracking-widest uppercase text-center">Swipe or click cards to browse</p>
         </section>
     );
 }

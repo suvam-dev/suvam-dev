@@ -28,27 +28,27 @@ function Carousel() {
             </div>
 
             {/* Carousel Container */}
-            <div className="relative w-full max-w-[1400px] mx-auto">
+            <div className="carousel-container relative w-full max-w-[1400px] mx-auto">
                 {/* Left and Right Fade Gradients */}
-                <div className="absolute left-0 top-0 bottom-0 w-40 bg-gradient-to-r from-[#050510] to-transparent z-10 pointer-events-none"></div>
-                <div className="absolute right-0 top-0 bottom-0 w-40 bg-gradient-to-l from-[#050510] to-transparent z-10 pointer-events-none"></div>
+                <div className="absolute left-0 top-0 bottom-0 w-16 md:w-40 bg-gradient-to-r from-[#050510] to-transparent z-10 pointer-events-none"></div>
+                <div className="absolute right-0 top-0 bottom-0 w-16 md:w-40 bg-gradient-to-l from-[#050510] to-transparent z-10 pointer-events-none"></div>
 
                 {/* Animated Track */}
-                <div className="flex w-max animate-infinite-scroll hover:[animation-play-state:paused]">
+                <div className="animate-scroll hover:[animation-play-state:paused]">
                     {/* First Set */}
                     {techStack.map((tech, i) => (
-                        <div key={`set1-${i}`} className="flex-shrink-0 w-50 flex flex-row justify-start items-center py-5 px-4 rounded-2xl bg-[#0B0C10]/60 backdrop-blur-sm border border-cyan-900/30 hover:border-cyan-500/50 hover:bg-cyan-900/30 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_0_15px_rgba(34,211,238,0.3)] cursor-pointer group mx-3">
-                            <img src={tech.img} alt={tech.name} className="h-10 w-10 object-contain mr-4 transform group-hover:scale-110 transition-transform duration-300 drop-shadow-md" />
-                            <span className="text-gray-300 font-semibold text-lg tracking-wide group-hover:text-cyan-300 transition-colors">
+                        <div key={`set1-${i}`} className="flex-shrink-0 w-44 md:w-50 flex flex-row justify-start items-center py-4 md:py-5 px-3 md:px-4 rounded-2xl bg-[#0B0C10]/60 backdrop-blur-sm border border-cyan-900/30 hover:border-cyan-500/50 hover:bg-cyan-900/30 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_0_15px_rgba(34,211,238,0.3)] cursor-pointer group mx-2 md:mx-3">
+                            <img src={tech.img} alt={tech.name} className="h-8 md:h-10 w-8 md:w-10 object-contain mr-3 md:mr-4 transform group-hover:scale-110 transition-transform duration-300 drop-shadow-md" />
+                            <span className="text-gray-300 font-semibold text-base md:text-lg tracking-wide group-hover:text-cyan-300 transition-colors">
                                 {tech.name}
                             </span>
                         </div>
                     ))}
                     {/* Second Set (Duplicate for smooth infinite scroll) */}
                     {techStack.map((tech, i) => (
-                        <div key={`set2-${i}`} className="flex-shrink-0 w-50 flex flex-row justify-start items-center py-5 px-4 rounded-2xl bg-[#0B0C10]/60 backdrop-blur-sm border border-cyan-900/30 hover:border-cyan-500/50 hover:bg-cyan-900/30 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_0_15px_rgba(34,211,238,0.3)] cursor-pointer group mx-3">
-                            <img src={tech.img} alt={tech.name} className="h-10 w-10 object-contain mr-4 transform group-hover:scale-110 transition-transform duration-300 drop-shadow-md" />
-                            <span className="text-gray-300 font-semibold text-lg tracking-wide group-hover:text-cyan-300 transition-colors">
+                        <div key={`set2-${i}`} className="flex-shrink-0 w-44 md:w-50 flex flex-row justify-start items-center py-4 md:py-5 px-3 md:px-4 rounded-2xl bg-[#0B0C10]/60 backdrop-blur-sm border border-cyan-900/30 hover:border-cyan-500/50 hover:bg-cyan-900/30 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_0_15px_rgba(34,211,238,0.3)] cursor-pointer group mx-2 md:mx-3">
+                            <img src={tech.img} alt={tech.name} className="h-8 md:h-10 w-8 md:w-10 object-contain mr-3 md:mr-4 transform group-hover:scale-110 transition-transform duration-300 drop-shadow-md" />
+                            <span className="text-gray-300 font-semibold text-base md:text-lg tracking-wide group-hover:text-cyan-300 transition-colors">
                                 {tech.name}
                             </span>
                         </div>
