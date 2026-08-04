@@ -91,7 +91,7 @@
 
 ### 🏆 GitHub Trophies
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=suvam-dev&theme=tokyonight&column=7&margin-w=10&margin-h=10&no-bg=true&no-frame=false)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://trophygithubreadmelang.cybee.dpdns.org/?username=suvam-dev&theme=tokyonight&column=7&margin-w=10&margin-h=10&no-bg=true&no-frame=false)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -105,9 +105,9 @@
 
 ### 📊 GitHub Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=suvam-dev&show_icons=true&theme=tokyonight&bg_color=050510&title_color=00f0ff&icon_color=00f0ff&text_color=c9d1d9&border_color=00f0ff&border_radius=12&hide_border=false&include_all_commits=true&count_private=true" height="170" />
+<img src="https://github-stats-extended.vercel.app/api?username=suvam-dev&show_icons=true&theme=tokyonight&bg_color=050510&title_color=00f0ff&icon_color=00f0ff&text_color=c9d1d9&border_color=00f0ff&border_radius=12&hide_border=false&include_all_commits=true&count_private=true" height="170" />
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=suvam-dev&layout=compact&theme=tokyonight&bg_color=050510&title_color=00f0ff&text_color=c9d1d9&border_color=00f0ff&border_radius=12&langs_count=8" height="170" />
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=suvam-dev&layout=compact&theme=tokyonight&bg_color=050510&title_color=00f0ff&text_color=c9d1d9&border_color=00f0ff&border_radius=12&langs_count=8" height="170" />
 
 <br/><br/>
 
