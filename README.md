@@ -14,7 +14,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=00F0FF&background=00000000&center=true&vCenter=true&multiline=false&width=650&height=50&lines=%3E+Initializing+portfolio...+%E2%9C%93;%3E+React+%7C+TypeScript+%7C+WebAssembly+%7C+Docker;%3E+Systems+Thinker.+Precision+Engineer.;%3E+IIT+Kharagpur+%7C+Manufacturing+%26+Computation;%3E+ping+suvam1061+--+open+to+collabs)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=00F0FF&background=00000000&center=true&vCenter=true&multiline=false&width=650&height=50&lines=%3E+Initializing+portfolio...+%E2%9C%93;%3E+React+%7C+TypeScript+%7C+WebAssembly+%7C+Docker;%3E+Systems+Thinker.+Precision+Engineer.;%3E+IIT+Kharagpur+%7C+Manufacturing+%26+Computation;%3E+ping+suvam-dev+--+open+to+collabs)](https://git.io/typing-svg)
 
 </div>
 
@@ -32,7 +32,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
 
-![Profile Views](https://komarev.com/ghpvc/?username=suvam1061&color=00f0ff&style=for-the-badge&label=PROFILE+VIEWS)
+![Profile Views](https://komarev.com/ghpvc/?username=suvam-dev&color=00f0ff&style=for-the-badge&label=PROFILE+VIEWS)
 
 </div>
 
@@ -61,7 +61,7 @@
 ║                                                                          ║
 ║   [ BOOT ]  IIT Kharagpur · Full-Stack · 2025 .......................... ║
 ║   [ SYS  ]  React 19 · TypeScript · Vite 7 · Tailwind v4 .............. ║
-║   [ NET  ]  github.com/suvam1061 · Vercel CD ........................... ║
+║   [ NET  ]  github.com/suvam-dev · Vercel CD ........................... ║
 ║   [ STAT ]  All systems operational ✓ .................................. ║
 ║                                                                          ║
 ╚══════════════════════════════════════════════════════════════════════════╝
@@ -91,7 +91,7 @@
 
 ### 🏆 GitHub Trophies
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=suvam1061&theme=tokyonight&column=7&margin-w=10&margin-h=10&no-bg=true&no-frame=false)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=suvam-dev&theme=tokyonight&column=7&margin-w=10&margin-h=10&no-bg=true&no-frame=false)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -105,13 +105,13 @@
 
 ### 📊 GitHub Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=suvam1061&show_icons=true&theme=tokyonight&bg_color=050510&title_color=00f0ff&icon_color=00f0ff&text_color=c9d1d9&border_color=00f0ff&border_radius=12&hide_border=false&include_all_commits=true&count_private=true" height="170" />
+<img src="https://github-readme-stats.vercel.app/api?username=suvam-dev&show_icons=true&theme=tokyonight&bg_color=050510&title_color=00f0ff&icon_color=00f0ff&text_color=c9d1d9&border_color=00f0ff&border_radius=12&hide_border=false&include_all_commits=true&count_private=true" height="170" />
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=suvam1061&layout=compact&theme=tokyonight&bg_color=050510&title_color=00f0ff&text_color=c9d1d9&border_color=00f0ff&border_radius=12&langs_count=8" height="170" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=suvam-dev&layout=compact&theme=tokyonight&bg_color=050510&title_color=00f0ff&text_color=c9d1d9&border_color=00f0ff&border_radius=12&langs_count=8" height="170" />
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=suvam1061&theme=tokyonight&background=050510&border=00f0ff&ring=00f0ff&fire=ff6b6b&currStreakNum=00f0ff&sideNums=c9d1d9&currStreakLabel=00f0ff&sideLabels=c9d1d9&dates=888888&border_radius=12" height="170" />
+<img src="https://streak-stats.demolab.com?user=suvam-dev&theme=tokyonight&background=050510&border=00f0ff&ring=00f0ff&fire=ff6b6b&currStreakNum=00f0ff&sideNums=c9d1d9&currStreakLabel=00f0ff&sideLabels=c9d1d9&dates=888888&border_radius=12" height="170" />
 
 </div>
 
@@ -125,7 +125,7 @@
 
 ### 📈 Contribution Activity
 
-[![Suvam's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=suvam1061&bg_color=050510&color=00f0ff&line=00f0ff&point=ffffff&area=true&area_color=00f0ff&border_color=00f0ff&title_color=00f0ff&radius=12&custom_title=Suvam%27s%20Contribution%20Graph)](https://github.com/Ashutosh00710/github-readme-activity-graph)
+[![Suvam's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=suvam-dev&bg_color=050510&color=00f0ff&line=00f0ff&point=ffffff&area=true&area_color=00f0ff&border_color=00f0ff&title_color=00f0ff&radius=12&custom_title=Suvam%27s%20Contribution%20Graph)](https://github.com/Ashutosh00710/github-readme-activity-graph)
 
 </div>
 
@@ -140,9 +140,9 @@
 ### 🐍 Snake Eating My Contributions
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/suvam1061/suvam1061/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/suvam1061/suvam1061/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/suvam1061/suvam1061/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/suvam-dev/suvam-dev/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/suvam-dev/suvam-dev/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/suvam-dev/suvam-dev/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 
 > Set up the snake via → [Platane/snk](https://github.com/Platane/snk)
@@ -276,7 +276,7 @@ EmailJS handles submission server-side — no backend, messages land directly in
 
 ```bash
 # Clone
-git clone https://github.com/suvam1061/portfolio-react.jsx.git
+git clone https://github.com/suvam-dev/portfolio-react.jsx.git
 cd portfolio-react.jsx-1
 
 # Install
@@ -328,7 +328,7 @@ Every push to `main` triggers automatic Vercel deployment.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050510,100:00f0ff&height=140&section=footer&text=Let%27s%20Build%20Something%20Great&fontSize=26&fontColor=ffffff&fontAlignY=68&animation=twinkling" width="100%" />
 
-**Designed & Engineered by [Suvam Ghosh](https://github.com/suvam1061)**  
+**Designed & Engineered by [Suvam Ghosh](https://github.com/suvam-dev)**  
 IIT Kharagpur · Manufacturing Science & Engineering
 
 *Found this interesting? A ⭐ goes a long way.*
