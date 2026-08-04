@@ -26,7 +26,7 @@
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Live_Portfolio-Visit-00f0ff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=050510)](https://portfolio-react-chvbx9jo9-suvam-devs-projects.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Live_Portfolio-Visit-00f0ff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=050510)](https://suvam-dev.me)
 [![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite_7-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
