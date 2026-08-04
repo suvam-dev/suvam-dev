@@ -26,7 +26,7 @@
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🚀_Live_Portfolio-Visit-00f0ff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=050510)](https://portfolio-react-chvbx9jo9-suvam-devs-projects.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Live_Portfolio-Visit-00f0ff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=050510)](https://portfolio-react-chvbx9jo9-suvam-devs-projects.vercel.app)
 [![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite_7-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
@@ -75,7 +75,7 @@
 
 <div align="center">
 
-### 🛠 Tech Stack
+### Tech Stack
 
 [![Skills](https://skillicons.dev/icons?i=react,ts,js,html,css,tailwind,vite,python,cpp,docker,git,linux,vercel,wasm&theme=dark&perline=7)](https://skillicons.dev)
 
@@ -89,7 +89,7 @@
 
 <div align="center">
 
-### 🏆 GitHub Trophies
+### GitHub Trophies
 
 [![trophy](https://trophygithubreadmelang.cybee.dpdns.org/?username=suvam-dev&theme=tokyonight&column=7&margin-w=10&margin-h=10&no-bg=true&no-frame=false)](https://github.com/ryo-ma/github-profile-trophy)
 
@@ -103,7 +103,7 @@
 
 <div align="center">
 
-### 📊 GitHub Stats
+### GitHub Stats
 
 <img src="https://github-stats-extended.vercel.app/api?username=suvam-dev&show_icons=true&theme=tokyonight&bg_color=050510&title_color=00f0ff&icon_color=00f0ff&text_color=c9d1d9&border_color=00f0ff&border_radius=12&hide_border=false&include_all_commits=true&count_private=true" height="170" />
 &nbsp;&nbsp;
@@ -123,7 +123,7 @@
 
 <div align="center">
 
-### 📈 Contribution Activity
+### Contribution Activity
 
 [![Suvam's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=suvam-dev&bg_color=050510&color=00f0ff&line=00f0ff&point=ffffff&area=true&area_color=00f0ff&border_color=00f0ff&title_color=00f0ff&radius=12&custom_title=Suvam%27s%20Contribution%20Graph)](https://github.com/Ashutosh00710/github-readme-activity-graph)
 
@@ -137,7 +137,7 @@
 
 <div align="center">
 
-### 🐍 Snake Eating My Contributions
+### Contribution Graph
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/suvam-dev/suvam-dev/output/github-contribution-grid-snake-dark.svg" />
@@ -155,43 +155,25 @@
 <!--                        ABOUT ME                                       -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## 🧠 About the Builder
+## About
 
-> *"I thrive on connecting concepts across disciplines and approaching problems through the lens of systems thinking."*
-
-I'm an undergraduate at **IIT Kharagpur**, studying Manufacturing Science & Engineering — but spending most of my time understanding how software systems actually work beneath the surface. I care deeply about code that is not just *correct*, but **elegant, scalable, and optimized.**
+I'm an undergraduate at **IIT Kharagpur**, studying Manufacturing Science & Engineering. I'm passionate about full-stack development, systems engineering, and building scalable software.
 
 ```
   ╔═════════════════════════════════════════════════════╗
   ║                                                     ║
-  ║   🎓  IIT Kharagpur — Manufacturing Sci & Eng      ║
-  ║   💻  Full-Stack · Systems · AI/ML Tooling         ║
-  ║   🌐  Web · WASM · Docker · Prompt Engineering     ║
-  ║   🧩  DSA · Algorithms · Scalable Architecture     ║
-  ║   🚀  Always building. Always learning             ║
+  ║   IIT Kharagpur — Manufacturing Sci & Eng      ║
+  ║   Full-Stack · Systems · AI/ML Tooling         ║
+  ║   Web · WASM · Docker · Prompt Engineering     ║
+  ║   DSA · Algorithms · Scalable Architecture     ║
+  ║   Always building. Always learning.            ║
   ║                                                     ║
   ╚═════════════════════════════════════════════════════╝
 ```
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                       WHAT MAKES THIS DIFFERENT                       -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## ⚡ What Makes This Different
-
-This isn't a template. Every pixel, interaction, and animation was deliberately designed around one philosophy: **rigorous, elegant, technical.**
-
-| Detail | Choice | Why |
-|:---|:---|:---|
-| Background | `#050510` | Near-void black — removes visual noise |
-| Accent | `#00f0ff` neon cyan | Maximum contrast, zero eye fatigue on dark |
-| Aesthetic | Glassmorphism + CSS grids + Spline 3D | Depth without heaviness |
-| Animations | Marquees, card hovers, lazy 3D | Fluid, never distracting |
-| Architecture | Component-driven, zero prop drilling | Scales cleanly |
-
----
 
 <div align="center">
 
@@ -205,11 +187,11 @@ This isn't a template. Every pixel, interaction, and animation was deliberately 
 <!--                        FEATURED PROJECTS                              -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## 🗂️ Featured Projects
+## Featured Projects
 
 <div align="center">
 
-| 🚀 Project | 🔧 Stack | 🔗 Links |
+| Project | Stack | Links |
 |:---|:---|:---|
 | **Zth Landing Page** | TypeScript · 3D Rendering | [GitHub](https://github.com/suvam-dev/zth-website) |
 | **IRCTC Redesign** | HTML · CSS · JS | [🌐 Live](https://irctc-redesign-eight.vercel.app) · [GitHub](https://github.com/suvam-dev/IRCTC_Redesign) |
@@ -228,7 +210,7 @@ This isn't a template. Every pixel, interaction, and animation was deliberately 
 <!--                          TECH STACK                                   -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## 💻 Tech Stack
+## Tech Stack
 
 ```
   ┌──────────────────────────────────────────────────────────┐
@@ -249,21 +231,21 @@ This isn't a template. Every pixel, interaction, and animation was deliberately 
 <!--                         SITE FEATURES                                 -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## ✨ Site Features
+## Site Features
 
-**🪐 Immersive 3D Landing**  
+**Immersive 3D Landing**  
 `@splinetool/react-spline` wrapped in React `Suspense` — 3D loads lazily, zero blocking of the critical render path.
 
-**🔬 Scientific Dark Theme**  
+**Dark Theme**  
 `#050510` background, glowing cyan elements, CSS grid overlays, glassmorphism cards — a cohesive "deep-space lab" aesthetic.
 
-**🎠 Dynamic Projects Carousel**  
+**Dynamic Projects Carousel**  
 Keyboard and pointer navigable with animated card transitions and GitHub/live CTAs — driven from a single data file.
 
-**⚙️ Infinite Skills Marquee**  
+**Infinite Skills Marquee**  
 CSS-animated marquee with zero JS overhead after mount.
 
-**📬 Functional Contact Form**  
+**Functional Contact Form**  
 EmailJS handles submission server-side — no backend, messages land directly in inbox.
 
 ---
@@ -272,7 +254,7 @@ EmailJS handles submission server-side — no backend, messages land directly in
 <!--                          RUN LOCALLY                                  -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## 🚀 Run Locally
+## Run Locally
 
 ```bash
 # Clone
@@ -296,7 +278,7 @@ Configure EmailJS credentials in `src/section/ContactSection.jsx`:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -308,7 +290,7 @@ src/
 
 ---
 
-## 🛠️ Build & Deploy
+## Build ## 🛠️ Build & Deploy Deploy
 
 ```bash
 npm run build      # → dist/
