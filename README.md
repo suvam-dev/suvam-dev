@@ -162,11 +162,11 @@ I'm an undergraduate at **IIT Kharagpur**, studying Manufacturing Science & Engi
 ```
   ╔═════════════════════════════════════════════════════╗
   ║                                                     ║
-  ║   ⬡  IIT Kharagpur — Manufacturing Sci & Eng      ║
-  ║   ⬡  Full-Stack · Systems · AI/ML Tooling         ║
-  ║   ⬡  Web · WASM · Docker · Prompt Engineering     ║
-  ║   ⬡  DSA · Algorithms · Scalable Architecture     ║
-  ║   ⬡  Always building. Always learning.            ║
+  ║   ⬡  IIT Kharagpur — Manufacturing Sci & Eng        ║
+  ║   ⬡  Full-Stack · Systems · AI/ML Tooling           ║
+  ║   ⬡  Web · WASM · Docker · Prompt Engineering       ║
+  ║   ⬡  DSA · Algorithms · Scalable Architecture       ║
+  ║   ⬡  Always building. Always learning.              ║
   ║                                                     ║
   ╚═════════════════════════════════════════════════════╝
 ```
