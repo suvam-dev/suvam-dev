@@ -91,7 +91,7 @@
 
 ### ✧ GitHub Trophies
 
-[![trophy](https://trophygithubreadmelang.cybee.dpdns.org/?username=suvam-dev&theme=tokyonight&column=7&margin-w=10&margin-h=10&no-bg=true&no-frame=false)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://trophygithubreadmelang.cybee.dpdns.org/?username=suvam-dev&theme=tokyonight&column=4&margin-w=10&margin-h=10&no-bg=true&no-frame=false)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
